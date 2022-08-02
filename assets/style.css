@@ -12,8 +12,30 @@
     background-color: lightpink;
     color: lavenderblush;
   }
+  .animals {
+    display: flex;
+    width: 50%;
+    margin: 1% auto;
+  }
+  
+  .animals button {
+    font-size: 150%;
+  }
+  
+  .animals-slideshow {
+    display: flex;
+  }
+  
+  .animals-image {
+    width: 20%;
+  }
+  
+  .animals-details {
+    margin-left: 3%;
+    flex: 0 0 60%;
+  }
 
-.product-slideshow {
+.animals-slideshow {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
